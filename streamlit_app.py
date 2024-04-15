@@ -30,7 +30,7 @@ def send_webhook(category, request):
     return response
 
 # Streamlit user interface
-st.title('Webhook Sender')
+st.title('GMG Digital Internal Ticket SUbmission')
 
 category = st.text_input("Category", value="")
 request = st.text_area("Request", value="")
